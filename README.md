@@ -25,6 +25,3 @@ What data does program deal with? Coordination Information Necessary to Display 
 *	Date of Event
 *	Necessary Contact Info (could be phone, email ... both!)
 
-What is the best way to represent the data? Through a combination of a UI, several linked lists and associated files necessary
-Will the data need to be persistent? Yes. How will you make that happen? Using object serialization for a linked list of Users and Events and a file listing the user names already taken.
-Will the data need to be aggregated into a larger structure? How? The Data will be aggregated per event, per user, but other than that basic hierarchy (as listed earlier) the aggregation of data will be rather intuitive as looking at program tree
